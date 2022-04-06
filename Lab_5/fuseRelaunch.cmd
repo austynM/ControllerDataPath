@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/GCD_test_isim_beh.exe" -prj "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/GCD_test_beh.prj" "work.GCD_test" "work.glbl" 

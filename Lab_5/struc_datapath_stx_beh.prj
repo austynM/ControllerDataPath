@@ -1,0 +1,7 @@
+verilog isim_temp "sub.v"
+verilog isim_temp "NEQ.v"
+verilog isim_temp "less_than.v"
+verilog isim_temp "FBW21MUX.v"
+verilog isim_temp "dff.v"
+verilog isim_temp "struc_datapath.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

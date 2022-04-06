@@ -1,0 +1,156 @@
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_without_board/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/brend/Desktop/New folder/PIN_MAP.ucf" -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/brend/Desktop/New folder/PIN_MAP.ucf" -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 lab5_board.ngc lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab5_board.ngc" lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab5_board.ngc" lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab5_board.ngc" lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 
+xst -intstyle ise -ifn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.xst" -ofn "C:/Users/brend/Desktop/Computer System Design/Lab_5_Final/Lab_5/lab5_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab5_board.ngc" lab5_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5_board_map.ncd lab5_board.ngd lab5_board.pcf 
+par -w -intstyle ise -ol high -mt off lab5_board_map.ncd lab5_board.ncd lab5_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab5_board.twx lab5_board.ncd -o lab5_board.twr lab5_board.pcf -ucf Anvyl_Master.ucf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab5_board.ut lab5_board.ncd 

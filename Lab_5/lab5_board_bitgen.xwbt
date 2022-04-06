@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\lab5_board.ncd
+OUTFILE=C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\lab5_board.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg484
+WORKINGDIR=C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5
+LICENSE=WebPack
+USER_INFO=212392085_0_0_835

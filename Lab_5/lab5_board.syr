@@ -1,0 +1,541 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Reading design: lab5_board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "lab5_board.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "lab5_board"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg484
+
+---- Source Options
+Top Module Name                    : lab5_board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\sub.v" into library work
+Parsing module <sub>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\NEQ.v" into library work
+Parsing module <NEQ>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\less_than.v" into library work
+Parsing module <less_than>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\FBW21MUX.v" into library work
+Parsing module <mux_21>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\dff.v" into library work
+Parsing module <dff>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\struc_datapath.v" into library work
+Parsing module <struc_datapath>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\debouncer.v" into library work
+Parsing module <debouncer>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\ccontroller_FSM.v" into library work
+Parsing module <ccontroller_FSM>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\GCD_wrapper_func.v" into library work
+Parsing module <GCD_wrapper_func>.
+Analyzing Verilog file "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\lab5_board.v" into library work
+Parsing module <lab5_board>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <lab5_board>.
+
+Elaborating module <GCD_wrapper_func>.
+
+Elaborating module <debouncer>.
+
+Elaborating module <ccontroller_FSM>.
+
+Elaborating module <struc_datapath>.
+
+Elaborating module <mux_21>.
+
+Elaborating module <dff>.
+
+Elaborating module <NEQ>.
+
+Elaborating module <less_than>.
+
+Elaborating module <sub>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <lab5_board>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\lab5_board.v".
+WARNING:Xst:647 - Input <BTN<2:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <lab5_board> synthesized.
+
+Synthesizing Unit <GCD_wrapper_func>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\GCD_wrapper_func.v".
+    Summary:
+	no macro.
+Unit <GCD_wrapper_func> synthesized.
+
+Synthesizing Unit <debouncer>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\debouncer.v".
+    Found 1-bit register for signal <sync2>.
+    Found 1-bit register for signal <sync3>.
+    Found 1-bit register for signal <out>.
+    Found 1-bit register for signal <sync>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <debouncer> synthesized.
+
+Synthesizing Unit <ccontroller_FSM>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\ccontroller_FSM.v".
+    Found 1-bit register for signal <done>.
+    Found 1-bit register for signal <x_sel>.
+    Found 1-bit register for signal <y_sel>.
+    Found 1-bit register for signal <x_ld>.
+    Found 1-bit register for signal <y_ld>.
+    Found 1-bit register for signal <d_ld>.
+    Found 4-bit register for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 14                                             |
+    | Transitions        | 17                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clk (falling_edge)                             |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <ccontroller_FSM> synthesized.
+
+Synthesizing Unit <struc_datapath>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\struc_datapath.v".
+    Summary:
+	no macro.
+Unit <struc_datapath> synthesized.
+
+Synthesizing Unit <mux_21>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\FBW21MUX.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_21> synthesized.
+
+Synthesizing Unit <dff>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\dff.v".
+    Found 4-bit register for signal <q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <dff> synthesized.
+
+Synthesizing Unit <NEQ>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\NEQ.v".
+    Found 4-bit comparator not equal for signal <n0000> created at line 26
+    Summary:
+	inferred   1 Comparator(s).
+Unit <NEQ> synthesized.
+
+Synthesizing Unit <less_than>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\less_than.v".
+    Found 4-bit comparator greater for signal <x_lt_y> created at line 26
+    Summary:
+	inferred   1 Comparator(s).
+Unit <less_than> synthesized.
+
+Synthesizing Unit <sub>.
+    Related source file is "C:\Users\brend\Desktop\Computer System Design\Lab_5_Final\Lab_5\sub.v".
+    Found 4-bit subtractor for signal <diff> created at line 26.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <sub> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit subtractor                                      : 2
+# Registers                                            : 13
+ 1-bit register                                        : 10
+ 4-bit register                                        : 3
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 1
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <struc_datapath>.
+The following registers are absorbed into accumulator <x_reg/q>: 1 register on signal <x_reg/q>.
+The following registers are absorbed into accumulator <y_reg/q>: 1 register on signal <y_reg/q>.
+Unit <struc_datapath> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Accumulators                                         : 2
+ 4-bit down loadable accumulator                       : 2
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <A/control/FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 1011  | 1011
+ 0110  | 0110
+ 1000  | 1000
+ 0111  | 0111
+ 1001  | 1001
+ 1010  | 1010
+ 1100  | 1100
+ 1101  | 1101
+-------------------
+
+Optimizing unit <lab5_board> ...
+
+Optimizing unit <struc_datapath> ...
+
+Optimizing unit <ccontroller_FSM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab5_board, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <lab5_board> :
+	Found 2-bit shift register for signal <A/A/sync2>.
+Unit <lab5_board> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : lab5_board.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 40
+#      GND                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 3
+#      LUT4                        : 7
+#      LUT5                        : 12
+#      LUT6                        : 9
+#      VCC                         : 1
+# FlipFlops/Latches                : 25
+#      FD                          : 2
+#      FDE                         : 1
+#      FDR_1                       : 10
+#      FDRE                        : 12
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 10
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              25  out of  54576     0%  
+ Number of Slice LUTs:                   39  out of  27288     0%  
+    Number used as Logic:                38  out of  27288     0%  
+    Number used as Memory:                1  out of   6408     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     43
+   Number with an unused Flip Flop:      18  out of     43    41%  
+   Number with an unused LUT:             4  out of     43     9%  
+   Number of fully used LUT-FF pairs:    21  out of     43    48%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  16  out of    320     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.980ns (Maximum Frequency: 143.256MHz)
+   Minimum input arrival time before clock: 3.961ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.980ns (frequency: 143.256MHz)
+  Total number of paths / destination ports: 192 / 49
+-------------------------------------------------------------------------
+Delay:               3.490ns (Levels of Logic = 3)
+  Source:            A/datapath/x_reg/q_1 (FF)
+  Destination:       A/control/state_FSM_FFd1 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK falling
+
+  Data Path: A/datapath/x_reg/q_1 to A/control/state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             9   0.447   1.058  A/datapath/x_reg/q_1 (A/datapath/x_reg/q_1)
+     LUT4:I1->O            2   0.205   0.617  A/datapath/x_lt_y11 (A/datapath/x_lt_y1)
+     LUT5:I4->O            3   0.205   0.651  A/datapath/x_lt_y12 (A/x_lt_y)
+     LUT6:I5->O            1   0.205   0.000  A/control/state_FSM_FFd4-In2 (A/control/state_FSM_FFd4-In)
+     FDR_1:D                   0.102          A/control/state_FSM_FFd4
+    ----------------------------------------
+    Total                      3.490ns (1.164ns logic, 2.326ns route)
+                                       (33.4% logic, 66.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 44 / 43
+-------------------------------------------------------------------------
+Offset:              3.961ns (Levels of Logic = 4)
+  Source:            SW<2> (PAD)
+  Destination:       A/datapath/x_reg/q_3 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: SW<2> to A/datapath/x_reg/q_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.864  SW_2_IBUF (SW_2_IBUF)
+     LUT4:I0->O            1   0.203   0.580  A/datapath/x_reg/Maccum_q_lut<2>1 (A/datapath/x_reg/Maccum_q_lut<2>)
+     LUT6:I5->O            1   0.205   0.580  A/datapath/x_reg/Maccum_q_xor<3>12_SW0 (N19)
+     LUT5:I4->O            1   0.205   0.000  A/datapath/x_reg/Maccum_q_xor<3>12 (A/datapath/Result<3>1)
+     FDRE:D                    0.102          A/datapath/x_reg/q_3
+    ----------------------------------------
+    Total                      3.961ns (1.937ns logic, 2.024ns route)
+                                       (48.9% logic, 51.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            A/control/done (FF)
+  Destination:       LDT2R (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: A/control/done to LDT2R
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.447   0.616  A/control/done (A/control/done)
+     OBUF:I->O                 2.571          LDT2R_OBUF (LDT2R)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.325|    3.068|    3.490|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.06 secs
+ 
+--> 
+
+Total memory usage is 225152 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
